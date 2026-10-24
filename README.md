@@ -1,6 +1,11 @@
 # V先生的網絡導航
 
 導航網站適配了電腦pc與手機端製作，能直接在cf上搭建，管理員登入後可維護網站，保存資料至 Cloudflare D1。
+**語言 / Language:** 繁體中文 | [English](README.en.md)
+
+## 首頁展示
+
+![V先生的網絡導航首頁截圖](assets/homepage.png)
 
 ## GitHub 安全
 
