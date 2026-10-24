@@ -1,0 +1,796 @@
+{
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI 工具",
+      "icon": "▣",
+      "subtitle": "最強大的 AI 工具合集",
+      "tone": "violet"
+    },
+    {
+      "id": "dev",
+      "name": "開發者工具",
+      "icon": "‹/›",
+      "subtitle": "編程・開發・雲服務",
+      "tone": "blue"
+    },
+    {
+      "id": "video",
+      "name": "影音娛樂",
+      "icon": "▶",
+      "subtitle": "影視・音樂・娛樂",
+      "tone": "pink"
+    },
+    {
+      "id": "work",
+      "name": "工作效率",
+      "icon": "▣",
+      "subtitle": "辦公・協作・管理",
+      "tone": "mint"
+    },
+    {
+      "id": "learn",
+      "name": "學習教育",
+      "icon": "◆",
+      "subtitle": "課程・知識・成長",
+      "tone": "orange"
+    },
+    {
+      "id": "life",
+      "name": "生活服務",
+      "icon": "♥",
+      "subtitle": "生活・資訊・工具",
+      "tone": "sky"
+    }
+  ],
+  "sections": [
+    {
+      "id": "v-homebase",
+      "title": "V先生自己創造的網絡基地",
+      "icon": "✦",
+      "category": "v-homebase"
+    },
+    {
+      "id": "ai-picks",
+      "title": "AI 工具推薦",
+      "icon": "◉",
+      "category": "ai",
+      "badge": "熱門"
+    },
+    {
+      "id": "popular",
+      "title": "熱門網站",
+      "icon": "♨",
+      "mode": "hot",
+      "category": "video",
+      "limit": 8
+    },
+    {
+      "id": "dev-services",
+      "title": "開發者與雲服務",
+      "icon": "▣",
+      "category": "dev"
+    },
+    {
+      "id": "learning",
+      "title": "學習與資源",
+      "icon": "♧",
+      "category": "learn"
+    },
+    {
+      "id": "productivity",
+      "title": "工作效率",
+      "icon": "▤",
+      "category": "work"
+    },
+    {
+      "id": "daily-life",
+      "title": "生活服務",
+      "icon": "✿",
+      "category": "life"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "ai-starter",
+      "title": "10 個超實用的 AI 工具推薦",
+      "description": "提升效率・工作學習必備",
+      "art": "ai"
+    },
+    {
+      "id": "design-trends",
+      "title": "2025 最值得看的高分影視",
+      "description": "豆瓣高分・劇荒必看",
+      "art": "film"
+    },
+    {
+      "id": "dev-guides",
+      "title": "前端開發必備資源合集",
+      "description": "框架／工具／學習資源",
+      "art": "code"
+    }
+  ],
+  "suggestions": [
+    "chatgpt",
+    "deepseek",
+    "youtube",
+    "netflix",
+    "canva",
+    "github",
+    "notion"
+  ],
+  "sites": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com",
+      "category": "ai",
+      "description": "全能 AI 助手",
+      "tags": [
+        "AI 助手",
+        "對話"
+      ],
+      "hot": true,
+      "color": "#18b981",
+      "icon": "✳"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "category": "ai",
+      "description": "AI 助手",
+      "tags": [
+        "寫作",
+        "分析"
+      ],
+      "hot": true,
+      "color": "#ef6b4d",
+      "icon": "✳"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "url": "https://gemini.google.com",
+      "category": "ai",
+      "description": "谷歌 AI",
+      "tags": [
+        "AI 助手",
+        "搜尋"
+      ],
+      "hot": true,
+      "color": "#a878fa",
+      "icon": "✦"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com",
+      "category": "ai",
+      "description": "AI 搜索",
+      "tags": [
+        "推理",
+        "對話"
+      ],
+      "hot": true,
+      "color": "#536bff",
+      "icon": "◉"
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com",
+      "category": "ai",
+      "description": "AI 繪圖",
+      "tags": [
+        "圖片",
+        "創作"
+      ],
+      "hot": false,
+      "color": "#263343",
+      "icon": "◒"
+    },
+    {
+      "id": "stable-diffusion",
+      "name": "Stable Diffusion",
+      "url": "https://stability.ai",
+      "category": "ai",
+      "description": "AI 繪圖",
+      "tags": [
+        "圖片",
+        "生成"
+      ],
+      "hot": false,
+      "color": "#e4a52f",
+      "icon": "◉"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai",
+      "category": "ai",
+      "description": "AI 搜索",
+      "tags": [
+        "搜尋",
+        "研究"
+      ],
+      "hot": true,
+      "color": "#35c6bb",
+      "icon": "⌕"
+    },
+    {
+      "id": "yuanbao",
+      "name": "文心一言",
+      "url": "https://yiyan.baidu.com",
+      "category": "ai",
+      "description": "AI 助手",
+      "tags": [
+        "中文",
+        "助手"
+      ],
+      "hot": false,
+      "color": "#337cf5",
+      "icon": "文"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "url": "https://www.youtube.com",
+      "category": "video",
+      "description": "影片／影視",
+      "tags": [
+        "影音",
+        "娛樂"
+      ],
+      "hot": true,
+      "color": "#ff2525",
+      "icon": "▶"
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "url": "https://www.netflix.com",
+      "category": "video",
+      "description": "影視／劇集",
+      "tags": [
+        "電影",
+        "劇集"
+      ],
+      "hot": true,
+      "color": "#ed1c24",
+      "icon": "N"
+    },
+    {
+      "id": "disney",
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com",
+      "category": "video",
+      "description": "影視／動漫",
+      "tags": [
+        "電影",
+        "串流"
+      ],
+      "hot": true,
+      "color": "#15377d",
+      "icon": "D+"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "url": "https://open.spotify.com",
+      "category": "video",
+      "description": "音樂／播客",
+      "tags": [
+        "音樂",
+        "Podcast"
+      ],
+      "hot": true,
+      "color": "#18b779",
+      "icon": "◖"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "url": "https://www.tiktok.com",
+      "category": "video",
+      "description": "短視頻",
+      "tags": [
+        "短片",
+        "社交"
+      ],
+      "hot": true,
+      "color": "#11151d",
+      "icon": "♪"
+    },
+    {
+      "id": "bilibili",
+      "name": "Bilibili",
+      "url": "https://www.bilibili.com",
+      "category": "video",
+      "description": "動畫／直播",
+      "tags": [
+        "影音",
+        "社群"
+      ],
+      "hot": true,
+      "color": "#f276b4",
+      "icon": "▸"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "url": "https://www.instagram.com",
+      "category": "video",
+      "description": "社交／圖片",
+      "tags": [
+        "照片",
+        "社交"
+      ],
+      "hot": true,
+      "color": "#d737a6",
+      "icon": "◎"
+    },
+    {
+      "id": "x",
+      "name": "Twitter / X",
+      "url": "https://x.com",
+      "category": "video",
+      "description": "社交／資訊",
+      "tags": [
+        "社交",
+        "資訊"
+      ],
+      "hot": true,
+      "color": "#11151d",
+      "icon": "𝕏"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "url": "https://github.com",
+      "category": "dev",
+      "description": "代碼託管",
+      "tags": [
+        "Git",
+        "開源"
+      ],
+      "hot": true,
+      "color": "#111827",
+      "icon": "●"
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "url": "https://www.docker.com",
+      "category": "dev",
+      "description": "容器化",
+      "tags": [
+        "開發",
+        "部署"
+      ],
+      "hot": false,
+      "color": "#1688e8",
+      "icon": "◈"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "url": "https://vercel.com",
+      "category": "dev",
+      "description": "部署平台",
+      "tags": [
+        "前端",
+        "雲端"
+      ],
+      "hot": true,
+      "color": "#111111",
+      "icon": "▲"
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "url": "https://dash.cloudflare.com",
+      "category": "dev",
+      "description": "CDN / DNS",
+      "tags": [
+        "雲端",
+        "網域"
+      ],
+      "hot": true,
+      "color": "#f58d30",
+      "icon": "☁"
+    },
+    {
+      "id": "aliyun",
+      "name": "阿里雲",
+      "url": "https://www.aliyun.com",
+      "category": "dev",
+      "description": "雲服務",
+      "tags": [
+        "雲端",
+        "主機"
+      ],
+      "hot": false,
+      "color": "#ff6a00",
+      "icon": "阿"
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "url": "https://aws.amazon.com",
+      "category": "dev",
+      "description": "雲服務",
+      "tags": [
+        "雲端",
+        "主機"
+      ],
+      "hot": true,
+      "color": "#f49c24",
+      "icon": "aws"
+    },
+    {
+      "id": "google-cloud",
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com",
+      "category": "dev",
+      "description": "雲服務",
+      "tags": [
+        "雲端",
+        "主機"
+      ],
+      "hot": true,
+      "color": "#4285f4",
+      "icon": "◉"
+    },
+    {
+      "id": "onepanel",
+      "name": "1Panel",
+      "url": "https://1panel.cn",
+      "category": "dev",
+      "description": "伺服器管理",
+      "tags": [
+        "面板",
+        "部署"
+      ],
+      "hot": false,
+      "color": "#307cf6",
+      "icon": "◈"
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "url": "https://www.coursera.org",
+      "category": "learn",
+      "description": "在線課程",
+      "tags": [
+        "課程",
+        "證書"
+      ],
+      "hot": true,
+      "color": "#1769ff",
+      "icon": "C"
+    },
+    {
+      "id": "edx",
+      "name": "edX",
+      "url": "https://www.edx.org",
+      "category": "learn",
+      "description": "在線課程",
+      "tags": [
+        "大學",
+        "課程"
+      ],
+      "hot": true,
+      "color": "#152a3c",
+      "icon": "edX"
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "url": "https://www.udemy.com",
+      "category": "learn",
+      "description": "在線課程",
+      "tags": [
+        "技能",
+        "課程"
+      ],
+      "hot": true,
+      "color": "#9b32d6",
+      "icon": "U"
+    },
+    {
+      "id": "khan",
+      "name": "Khan Academy",
+      "url": "https://www.khanacademy.org",
+      "category": "learn",
+      "description": "免費學習平台",
+      "tags": [
+        "教育",
+        "免費"
+      ],
+      "hot": true,
+      "color": "#17b98c",
+      "icon": "♧"
+    },
+    {
+      "id": "notion-learn",
+      "name": "Notion",
+      "url": "https://www.notion.so",
+      "category": "learn",
+      "description": "筆記／效率",
+      "tags": [
+        "筆記",
+        "整理"
+      ],
+      "hot": true,
+      "color": "#111827",
+      "icon": "N"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "url": "https://www.zhihu.com",
+      "category": "learn",
+      "description": "知識問答",
+      "tags": [
+        "問答",
+        "知識"
+      ],
+      "hot": false,
+      "color": "#1877e8",
+      "icon": "知"
+    },
+    {
+      "id": "csdn",
+      "name": "CSDN",
+      "url": "https://www.csdn.net",
+      "category": "learn",
+      "description": "編程社區",
+      "tags": [
+        "開發",
+        "技術"
+      ],
+      "hot": false,
+      "color": "#e84a43",
+      "icon": "C"
+    },
+    {
+      "id": "stackoverflow",
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "category": "learn",
+      "description": "程式問答",
+      "tags": [
+        "編程",
+        "問答"
+      ],
+      "hot": true,
+      "color": "#f48024",
+      "icon": "♨"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "url": "https://www.figma.com",
+      "category": "work",
+      "description": "設計與協作",
+      "tags": [
+        "設計",
+        "原型"
+      ],
+      "hot": true,
+      "color": "#a75af4",
+      "icon": "◐"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "url": "https://www.canva.com",
+      "category": "work",
+      "description": "快速視覺設計",
+      "tags": [
+        "設計",
+        "簡報"
+      ],
+      "hot": true,
+      "color": "#22a7e7",
+      "icon": "C"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "url": "https://www.notion.so",
+      "category": "work",
+      "description": "筆記和工作空間",
+      "tags": [
+        "筆記",
+        "協作"
+      ],
+      "hot": true,
+      "color": "#111827",
+      "icon": "N"
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "url": "https://linear.app",
+      "category": "work",
+      "description": "專案管理",
+      "tags": [
+        "專案",
+        "效率"
+      ],
+      "hot": false,
+      "color": "#6e5ae6",
+      "icon": "◉"
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "url": "https://trello.com",
+      "category": "work",
+      "description": "看板協作",
+      "tags": [
+        "管理",
+        "團隊"
+      ],
+      "hot": false,
+      "color": "#287bd1",
+      "icon": "▤"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "url": "https://slack.com",
+      "category": "work",
+      "description": "團隊通訊",
+      "tags": [
+        "通訊",
+        "協作"
+      ],
+      "hot": true,
+      "color": "#7a4bb7",
+      "icon": "✣"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "url": "https://zoom.us",
+      "category": "work",
+      "description": "視訊會議",
+      "tags": [
+        "會議",
+        "通訊"
+      ],
+      "hot": false,
+      "color": "#2475e8",
+      "icon": "◉"
+    },
+    {
+      "id": "google-docs",
+      "name": "Google Docs",
+      "url": "https://docs.google.com",
+      "category": "work",
+      "description": "在線文件",
+      "tags": [
+        "文件",
+        "協作"
+      ],
+      "hot": true,
+      "color": "#4285f4",
+      "icon": "▤"
+    },
+    {
+      "id": "maps",
+      "name": "Google 地圖",
+      "url": "https://maps.google.com",
+      "category": "life",
+      "description": "地圖與路線",
+      "tags": [
+        "旅行",
+        "導航"
+      ],
+      "hot": true,
+      "color": "#36a269",
+      "icon": "⌖"
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash",
+      "url": "https://unsplash.com",
+      "category": "life",
+      "description": "免費攝影圖片",
+      "tags": [
+        "圖片",
+        "靈感"
+      ],
+      "hot": true,
+      "color": "#222222",
+      "icon": "◌"
+    },
+    {
+      "id": "wikipedia",
+      "name": "維基百科",
+      "url": "https://zh.wikipedia.org",
+      "category": "life",
+      "description": "自由百科全書",
+      "tags": [
+        "百科",
+        "知識"
+      ],
+      "hot": false,
+      "color": "#414a56",
+      "icon": "W"
+    },
+    {
+      "id": "translate",
+      "name": "Google 翻譯",
+      "url": "https://translate.google.com",
+      "category": "life",
+      "description": "即時翻譯工具",
+      "tags": [
+        "翻譯",
+        "語言"
+      ],
+      "hot": true,
+      "color": "#4285f4",
+      "icon": "文"
+    },
+    {
+      "id": "weather",
+      "name": "天氣預報",
+      "url": "https://weather.com",
+      "category": "life",
+      "description": "全球天氣資訊",
+      "tags": [
+        "天氣",
+        "生活"
+      ],
+      "hot": false,
+      "color": "#57a9e8",
+      "icon": "☼"
+    },
+    {
+      "id": "booking",
+      "name": "Booking.com",
+      "url": "https://www.booking.com",
+      "category": "life",
+      "description": "旅宿與行程",
+      "tags": [
+        "旅行",
+        "住宿"
+      ],
+      "hot": true,
+      "color": "#1765a7",
+      "icon": "B"
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com",
+      "category": "life",
+      "description": "發現生活靈感",
+      "tags": [
+        "設計",
+        "靈感"
+      ],
+      "hot": true,
+      "color": "#d52e3a",
+      "icon": "P"
+    },
+    {
+      "id": "calculator",
+      "name": "計算器",
+      "url": "https://www.google.com/search?q=calculator",
+      "category": "life",
+      "description": "隨手計算小工具",
+      "tags": [
+        "工具",
+        "計算"
+      ],
+      "hot": false,
+      "color": "#6b94d8",
+      "icon": "＋"
+    }
+  ]
+}

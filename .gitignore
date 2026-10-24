@@ -1,0 +1,13 @@
+# Local credentials and Cloudflare development state
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+.wrangler/
+.mf/
+node_modules/
+
+# Operating system files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="V先生的網絡導航：匯集 AI、開發、影音、工作、學習和生活好站。">
+  <title>V先生的網絡導航</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="回到首頁"><span class="brand-mark">V</span><span class="brand-divider"></span><span class="brand-copy"><strong>V先生的網絡導航</strong><small>更好的工具・更高效的生活</small></span></a>
+    <nav class="main-nav" aria-label="主要導覽">
+      <a class="nav-link active" href="#home" data-view="all"><span>◈</span>首頁</a><a class="nav-link" href="#categories"><span>⠿</span>分類</a><button class="nav-link" data-view="hot"><span>☆</span>熱門</button><button class="nav-link" data-view="favorites"><span>♡</span>收藏</button><button class="nav-link" data-view="recent"><span>◷</span>最近</button><button class="nav-link" data-admin><span>▣</span>管理</button>
+    </nav>
+    <div class="top-actions"><button class="round-button" id="focus-search" aria-label="搜尋">⌕</button><button class="theme-pill" id="theme-toggle" aria-label="切換主題"><span>☼</span><span>☾</span></button><button class="avatar" aria-label="V先生">V</button><button class="mobile-menu" id="mobile-menu" aria-label="開啟導覽">☰</button></div>
+  </header>
+  <aside class="sidebar" aria-label="快速導覽">
+    <nav class="side-links"><a class="side-link active" href="#home" data-view="all"><span>⌂</span>首頁</a><a class="side-link" href="#categories"><span>⠿</span>分類</a><button class="side-link" data-view="hot"><span>☆</span>熱門</button><button class="side-link" data-view="favorites"><span>♡</span>收藏</button><button class="side-link" data-view="recent"><span>◷</span>最近</button><button class="side-link" data-admin><span>▣</span>管理</button></nav>
+    <div class="side-bottom"><p>探索<br>更大的世界<br>從這裡開始</p><span class="side-rule"></span><strong>V先生的網絡導航</strong></div>
+  </aside>
+  <main id="home" class="page-main">
+    <section class="hero">
+      <div class="hero-content"><p class="hero-kicker">THE WEB, WELL CURATED</p><h1>V先生的網絡導航</h1><p class="hero-subtitle">匯聚全球優質資源・讓上網更簡單</p>
+        <form class="search-box" id="search-form"><span class="search-symbol">⌕</span><input id="search-input" type="search" placeholder="搜索你想要的內容..." aria-label="搜尋網站" autocomplete="off"><button aria-label="開始搜尋">→</button></form>
+        <div class="hot-search"><span class="flame">♨</span><b>熱門搜索：</b><div id="search-suggestions"></div></div>
+      </div>
+      <div class="hero-caption"><span>01</span> FIND YOUR NEXT FAVORITE</div>
+    </section>
+    <section class="category-strip" id="categories" aria-label="網站分類"></section>
+    <section id="personal-sites" class="personal-sites" aria-label="V先生自己創造的網絡基地" hidden></section>
+    <section class="directory-area" id="directory-area"><div class="directory-heading"><div><span class="directory-eyebrow" id="directory-eyebrow">CURATED FOR YOU</span><h2 id="directory-title">為你整理的好站</h2></div><button class="clear-filter" id="clear-filter" hidden>清除篩選 ×</button></div><div id="section-grid" class="section-grid"></div><div id="empty-state" class="empty-state" hidden><span>⌕</span><strong>沒有找到相關網站</strong><p>換個關鍵字，或試試其他分類。</p></div></section>
+
+    <footer class="site-footer"><a class="footer-brand" href="#home"><span>V</span><span><b>V先生的網絡導航</b><small>更好的工具・更高效的生活</small></span></a><nav><a href="#home">關於我們</a><a href="#home">聯繫我們</a><a href="#home">申請收錄</a><a href="#home">友鏈交換</a><a href="#home">隱私政策</a><a href="#home">使用條款</a></nav><div class="footer-meta"><span>© 2025 V先生的網絡導航</span><span>Powered by Cloudflare</span></div></footer>
+  </main>
+  <nav class="mobile-nav" aria-label="手機導覽"><a href="#home" data-view="all" class="active"><span>⌂</span>首頁</a><a href="#categories"><span>⠿</span>分類</a><button data-view="favorites"><span>☆</span>收藏</button><button data-view="recent"><span>◷</span>最近</button><button data-admin><span>▣</span>管理</button></nav>
+  <dialog id="admin-dialog" class="admin-dialog"><form method="dialog"><button class="dialog-close" aria-label="關閉">×</button></form><p class="dialog-kicker">DIRECTORY SETTINGS</p><h2>管理你的導航站</h2><p class="dialog-intro">管理員登入驗證後，可編輯網站並保存至線上；訪客重新整理就會看到最新內容。</p><section id="admin-login-panel"><form id="admin-login-form" class="admin-form admin-login-form"><label>管理員密碼<input id="admin-password" type="password" required autocomplete="current-password" placeholder="輸入管理員密碼"></label><button class="primary-action" type="submit">登入管理</button></form></section><section id="admin-editor" hidden><div class="admin-session-bar"><span>已通過管理員驗證</span><button id="admin-logout" class="secondary-action" type="button">登出</button></div><details class="admin-add" open><summary>＋ 新增網站</summary><form id="new-site-form" class="admin-form"><label>網站名稱<input id="new-site-name" required maxlength="60" placeholder="例如：OpenAI"></label><label>網站網址<input id="new-site-url" type="url" required placeholder="https://example.com"></label><label>分類<select id="new-site-category" required></select></label><label>簡短描述<input id="new-site-description" maxlength="100" placeholder="網站用途"></label><label>標籤（以逗號分隔）<input id="new-site-tags" placeholder="AI, 工具"></label><div class="admin-form-row"><label>圖示<input id="new-site-icon" maxlength="4" placeholder="✦"></label><label>品牌色<input id="new-site-color" type="color" value="#428ff1"></label><label class="hot-option"><input id="new-site-hot" type="checkbox">列入熱門</label></div><button class="primary-action" type="submit">新增網站</button></form></details><div class="admin-list-heading"><strong>網站清單 <span id="admin-site-count"></span></strong><input id="admin-site-filter" type="search" placeholder="篩選網站…" aria-label="篩選網站"></div><div id="admin-site-list" class="admin-site-list"></div><div class="admin-actions"><button id="save-online" class="primary-action" type="button">保存並更新網站</button><button id="export-json" class="secondary-action" type="button">匯出 JSON 備份</button><label class="secondary-action">匯入 JSON 備份<input id="import-json" type="file" accept="application/json,.json" hidden></label></div></section><p id="admin-status" class="admin-status" role="status"></p></dialog>
+  <script src="./app.js" defer></script>
+</body>
+</html>
